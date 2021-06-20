@@ -1,0 +1,27 @@
+{
+    "name": "node-typescript-eslint",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "license": "MIT",
+    "dependencies": {
+        "typescript": "^4.3.4",
+        "xlsx": "^0.17.0",
+        "xlsx-style": "^0.8.13"
+    },
+    "scripts": {
+        "start": "tsc && node dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.27.0",
+        "@typescript-eslint/parser": "^4.27.0",
+        "eslint": "^7.29.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-import-resolver-typescript": "^2.4.0",
+        "eslint-plugin-import": "^2.23.4",
+        "eslint-plugin-prettier": "^3.4.0",
+        "prettier": "^2.3.1",
+        "ts-node-dev": "^1.1.6"
+    }
+}
